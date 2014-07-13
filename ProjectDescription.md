@@ -8,4 +8,4 @@ Data source:
 
 The aim of this activity is to reproduce some plots as described at "https://github.com/rdpeng/ExData_Plotting1".
 
-The script dataPreparation.R could be used to download and subset the required data. An alternative is given on the four plot scripts (plot_.R) by downloading a already tidy data file (dat2Project1.txt).
+The script dataPreparation.R could be used to download and subset the required data. An alternative is given on the four plot scripts (plot_.R) by downloading a already tidy data file (data2Project1.txt).
