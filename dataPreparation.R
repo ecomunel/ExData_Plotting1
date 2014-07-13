@@ -36,7 +36,7 @@ readLines(zipFile, n=400) ### First Look at the data
 header     <- readLines(zipFile, n=1); header
 headNames  <- scan(textConnection(header), sep=";", what=character()); headNames
 dat        <- read.table(zipFile, head=F, sep=";", skip=66637, nrows=2880, 
-                         col.names=headNames, na.strings = c("NA", "\\?"))
+                         col.names=headNames, na.strings = c("NA", "?"))
 dat[c(1, nrow(dat)),] # Checking the results (1st and the last lines)
 
 showConnections(all=TRUE)
